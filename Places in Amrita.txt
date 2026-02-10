@@ -1,0 +1,15 @@
+Main Gate
+AB1
+AB2
+AB3
+AB4
+Sopanam Canteen
+IT Canteen
+Boys 1st year Mess hall
+Boys 2nd year Mess hall
+Kashyapa Bhavanam
+Gym
+Volleyball court (near gym)
+Synthetic Volleyball court
+Synthetic Basketball court
+Volleyball court (adjacent to Synthetic Basketball court)
