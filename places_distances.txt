@@ -1,0 +1,27 @@
+Main Gate — AB1 — 120
+Main Gate — IT Canteen — 150
+
+AB1 — AB2 — 60
+AB2 — AB3 — 55
+AB3 — AB4 — 50
+
+AB2 — Sopnam Canteen — 90
+AB3 — IT Canteen — 110
+
+IT Canteen — Boys 1st year Mess hall — 70
+Boys 1st year Mess hall — Boys 2nd year Mess hall — 65
+
+AB4 — Kashyapa Bhavanam — 231
+Kashyapa Bhavanam — Gym — 300
+
+Gym — Volleyball court (near gym) — 20
+Gym — Synthetic Volleyball court — 160
+
+Synthetic Volleyball court — Synthetic Basketball court — 20
+Synthetic Basketball court — Volleyball court (adjacent to Synthetic Basketball court) — 20
+
+Sopnam Canteen — Kashyapa Bhavanam — 349
+IT Canteen — Kashyapa Bhavanam — 846
+
+Boys 2nd year Mess hall — Gym — 120
+AB1 — Sopnam Canteen — 100
