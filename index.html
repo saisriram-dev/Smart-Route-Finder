@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Campus Shortest Route Finder</title>
+    <title>Smart Campus Route Finder</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<h1>Campus Shortest Route Finder</h1>
+<div class="container">
 
-<div class="controls">
-    <label>Start Location:</label>
-    <select id="start"></select>
+    <h1>🧭 Smart Campus Route Finder</h1>
 
-    <label>Destination:</label>
-    <select id="end"></select>
+    <div class="controls">
 
-    <button id="findBtn">Find Shortest Route</button>
-</div>
+        <div class="field">
+            <label>📍 Start Location</label>
+            <select id="start"></select>
+        </div>
 
-<div class="output">
-    <h2>Result</h2>
-    <p id="resultText">Route will appear here</p>
+        <div class="field">
+            <label>🎯 Destination</label>
+            <select id="end"></select>
+        </div>
+
+        <button id="findBtn">Find Shortest Route</button>
+
+    </div>
+
+    <div class="output">
+        <h2>📊 Result</h2>
+        <p id="resultText">Route will appear here</p>
+    </div>
+
 </div>
 
 <script src="app.js"></script>
