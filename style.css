@@ -4,37 +4,39 @@ body {
     margin: 0;
 }
 
-/* Main container */
+/* Header */
+
+header {
+    background: #2b7cff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main card */
+
 .container {
     width: 650px;
-    margin: 80px auto;
+    margin: 60px auto;
     background: white;
-    padding: 40px;
+    padding: 35px;
     border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
-/* Title */
-h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #2b2b2b;
-}
+/* Controls */
 
-/* Controls layout */
 .controls {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 18px;
 }
 
-/* Input group */
 .field {
     display: flex;
     flex-direction: column;
 }
 
-/* Dropdown styling */
 select {
     padding: 10px;
     border-radius: 6px;
@@ -43,8 +45,8 @@ select {
 }
 
 /* Button */
+
 button {
-    margin-top: 10px;
     padding: 12px;
     border: none;
     border-radius: 8px;
@@ -52,26 +54,35 @@ button {
     color: white;
     font-size: 16px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.25s;
 }
 
 button:hover {
-    background: #1f5ed6;
+    background: #1e5ed8;
 }
 
-/* Result box */
+/* Output */
+
 .output {
-    margin-top: 25px;
+    margin-top: 30px;
+}
+
+/* Route display box */
+
+.routeBox {
+    margin-top: 10px;
     padding: 20px;
     background: #eef3ff;
-    border-left: 5px solid #2b7cff;
+    border-left: 6px solid #2b7cff;
     border-radius: 8px;
 }
 
-.output h2 {
-    margin-top: 0;
-}
+/* Footer */
 
-#resultText {
-    font-size: 16px;
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    font-size: 14px;
+    color: #555;
 }

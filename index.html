@@ -6,16 +6,16 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
 
-<div class="container">
+<header>
+    <h1>🧭 Smart Campus Navigator</h1>
+</header>
 
-    <h1>🧭 Smart Campus Route Finder</h1>
+<div class="container">
 
     <div class="controls">
 
@@ -29,16 +29,25 @@
             <select id="end"></select>
         </div>
 
-        <button id="findBtn">Find Shortest Route</button>
+        <button id="findBtn">Find Optimal Route</button>
 
     </div>
 
     <div class="output">
-        <h2>📊 Result</h2>
-        <p id="resultText">Route will appear here</p>
+
+        <h2>Route Result</h2>
+
+        <div class="routeBox">
+            <p id="resultText">Route will appear here</p>
+        </div>
+
     </div>
 
 </div>
+
+<footer>
+DSA + Web Technology Project | Shortest Path using Dijkstra Algorithm
+</footer>
 
 <script src="app.js"></script>
 

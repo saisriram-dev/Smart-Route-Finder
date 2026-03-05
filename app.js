@@ -14,11 +14,13 @@ const endSelect = document.getElementById("end");
 const resultText = document.getElementById("resultText");
 
 /* Fill dropdowns */
+
 places.forEach(place => {
     startSelect.add(new Option(place, place));
     endSelect.add(new Option(place, place));
 });
 
+/* Button click */
 
 document.getElementById("findBtn").addEventListener("click", async () => {
 
