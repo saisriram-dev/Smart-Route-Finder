@@ -2,8 +2,7 @@
 <html>
 
 <head>
-    <title>Smart Campus Route Finder</title>
-
+    <title>Smart Campus Navigator</title>
     <link rel="stylesheet" href="style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -17,36 +16,23 @@
 
 <div class="container">
 
-    <div class="controls">
+    <label>Start Location</label>
+    <select id="start"></select>
 
-        <div class="field">
-            <label>📍 Start Location</label>
-            <select id="start"></select>
-        </div>
+    <label>Destination</label>
+    <select id="end"></select>
 
-        <div class="field">
-            <label>🎯 Destination</label>
-            <select id="end"></select>
-        </div>
-
-        <button id="findBtn">Find Optimal Route</button>
-
-    </div>
+    <button id="findBtn">Find Route</button>
 
     <div class="output">
-
-        <h2>Route Result</h2>
-
-        <div class="routeBox">
-            <p id="resultText">Route will appear here</p>
-        </div>
-
+        <h2>Result</h2>
+        <p id="resultText">Route will appear here</p>
     </div>
 
 </div>
 
 <footer>
-DSA + Web Technology Project | Shortest Path using Dijkstra Algorithm
+DSA Project – Shortest Path using Dijkstra
 </footer>
 
 <script src="app.js"></script>
