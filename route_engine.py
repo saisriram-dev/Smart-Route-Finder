@@ -1,4 +1,4 @@
-# ===== Graph Structure =====
+# Graph Structure
 
 graph = {}
 
@@ -12,7 +12,7 @@ def add_edge(a, b, d):
     graph[b].append((a, d))
 
 
-# ===== Distance Connections =====
+# Distance Connections
 
 add_edge("Main Gate", "AB1", 120)
 add_edge("Main Gate", "IT Canteen", 150)
@@ -44,7 +44,7 @@ add_edge("Boys 2nd year Mess hall", "Gym", 120)
 add_edge("AB1", "Sopnam Canteen", 100)
 
 
-# ===== Dijkstra =====
+# Dijkstra
 
 def dijkstra(start, end):
     distances = {node: float('inf') for node in graph}
